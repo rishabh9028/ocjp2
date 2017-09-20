@@ -1,0 +1,17 @@
+
+Q. What, inserted at line 39, will sort the keys in the props HashMap?
+
+34. HashMap props = new HashMap(); 
+35. props.put("key45", "some value"); 
+36. props.put("key12", "some other value"); 
+37. props.put("key39", "yet another value"); 
+38. Set s = props.keySet(); 
+39. // insert code here
+1). Arrays.sort(s);
+2). s = new TreeSet(s);
+3). Collections.sort(s);
+4). s = new SortedSet(s);
+Solution :
+option [2] is correct
+Attempted :
+option [3] is attempted 

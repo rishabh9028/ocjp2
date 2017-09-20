@@ -1,0 +1,10 @@
+
+Q. Identify 2 benefits of using ArrayList over array in Software Development.
+1). reduces memory foorprint
+2). implements Collection API
+3). is multithread safe
+4). dynamically resizes based on the number of elements in the list
+Solution :
+option [1,4] are correct
+Attempted :
+option [2,3] are attempted 

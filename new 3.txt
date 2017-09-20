@@ -1,0 +1,28 @@
+
+Q. Whats is the output?
+
+import java.util.ArrayList;
+import java.util.List;
+public class Test {     
+      public static void main(String[] args) {
+           List<String> list = new ArrayList<>();
+           list.add("English");
+           list.add("Hindi");
+           list.add("Kannada");
+           list.add("Marathi");
+           list.add("Tamil");
+           list.add("Telugu");
+           list.add(2,"Oriya");
+           System.out.print(list.get(4));
+           list.remove(3);
+           System.out.print(list.get(4));
+      }
+}
+1). TamilTelugu
+2). KannadaMarathi
+3). MarathiTamil
+4). Exception at runtime
+Solution :
+option [3] is correct
+Attempted :
+option [4] is attempted 

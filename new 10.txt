@@ -1,0 +1,24 @@
+
+Q. Given: 
+
+1. public static Collection get() { 
+2.          Collection sorted = new LinkedList(); 
+3.          sorted.add("B"); sorted.add("C"); sorted.add("A"); 
+4.          return sorted; 
+5. } 
+6. public static void main(String[] args) { 
+7.          for (Object obj: get()) { 
+8.                    System.out.print(obj + ", "); 
+9.          } 
+10. } 
+
+What is the result?
+1). A,B,C
+2). B,C,A
+3). Compilation Fails
+4). The code runs without output
+5). Exception thrown
+Solution :
+option [2] is correct
+Attempted :
+option [1] is attempted 

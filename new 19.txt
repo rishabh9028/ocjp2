@@ -1,0 +1,28 @@
+
+Q. View the Exhibit.
+public class Hat {
+public int ID =0;
+public String name = "hat";
+public String size = "One Size Fit All";
+public String color="";
+public String getName() { return name; }
+public void setName(String name) {
+this.name = name;
+}
+}
+Given
+public class TestHat {
+public static void main(String[] args) {
+Hat blackCowboyHat = new Hat();
+}
+}
+
+Which statement sets the name of the Hat instance?
+1). blackCowboyHat.setName = "Cowboy Hat";
+2). setName("Cowboy Hat");
+3). Hat.setName("Cowboy Hat");
+4). blackCowboyHat.setName("Cowboy Hat");
+Solution :
+option [4] is correct
+Attempted :
+option [3] is attempted 

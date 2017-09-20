@@ -1,0 +1,17 @@
+
+Q. Given the code fragment:
+
+1. ArrayList<Integer> list = new ArrayList<>(1);
+2. list.add(1001);
+3. list.add(1002);
+4. System.out.println(list.get(list.size()));
+
+What is the result?
+1). Compilation fails due to an error on line 1.
+2). An exception is thrown at run time due to error on line 3
+3). An exception is thrown at run time due to error on line 4
+4). 1002
+Solution :
+option [3] is correct
+Attempted :
+option [3] is attempted 

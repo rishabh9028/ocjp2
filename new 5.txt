@@ -1,0 +1,27 @@
+
+Q. Given the following code:
+
+package test;
+import java.util.ArrayList;
+public class Roller {
+public static void main(String[] args) {
+ArrayList<String> collector = new ArrayList<String>( );
+collector.add("Study");
+collector.add(Integer.toOctalString(Integer.MAX_VALUE));
+ArrayList<String> names = new ArrayList<>( );
+names.addAll(collector);
+names.add("Study");
+names.add(null);
+System.out.println(names.size( ));
+}
+}
+
+What is printed on the console?
+1). 0
+2). 2
+3). 3
+4). 4
+Solution :
+option [4] is correct
+Attempted :
+option [3] is attempted 

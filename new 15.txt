@@ -1,0 +1,14 @@
+
+Q. If we do:
+
+ArrayList lst = new ArrayList();
+
+What is the initial capacity of the ArrayList lst ?
+1). 10
+2). 8
+3). 15
+4). 12
+Solution :
+option [1] is correct
+Attempted :
+option [1] is attempted 

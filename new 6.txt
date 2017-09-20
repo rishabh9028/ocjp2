@@ -1,0 +1,22 @@
+
+Q. Given a pre-generics implementation of a method:
+
+11. public static int sum(List list) { 
+12. int sum = 0; 
+13. for ( Iterator iter = list.iterator(); iter.hasNext(); ) { 
+14. int i = ((Integer)iter.next()).intValue(); 
+15. sum += i; 
+16. } 
+17. return sum; 
+18. } 
+
+Which three changes must be made to the method sum to use generics? (Choose three.)
+1). Remove line 14.
+2). Replace line 13 with "for (int i : intList) {".
+3). Replace line 13 with "for (Iterator iter : intList) {".
+4). Replace the method declaration with "sum(List<int> intList)".
+5). Replace the method declaration with "sum(List<Integer> intList)"
+Solution :
+option [1,2,5] are correct
+Attempted :
+option [2] is attempted 

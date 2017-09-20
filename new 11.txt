@@ -1,0 +1,22 @@
+
+Q. Refer the given code :
+
+public class Test {
+public static void main(String... args) {
+
+Set s = new TreeSet();
+ s.add("7");
+ s.add(9);
+ Iterator itr = s.iterator();
+ while (itr.hasNext())
+ System.out.print(itr.next() + " ");
+}
+}
+1). Compile error
+2). Runtime Exception
+3). 7 9
+4). None of the above
+Solution :
+option [2] is correct
+Attempted :
+option [1] is attempted 

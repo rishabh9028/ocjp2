@@ -1,0 +1,21 @@
+
+Q. Which code, inserted at line 4, guarantees that this program will output [1, 2]?
+
+1. import java.util.*;
+2. public class Example {
+3. public static void main(String[] args) {
+4. // insert code here
+5. set.add(new Integer(2));
+6. set.add(new Integer(1));
+7. System.out.println(set);
+8. }
+9. }
+1). Set set = new TreeSet();
+2). Set set = new HashSet();
+3). Set set = new SortedSet();
+4). List set = new SortedList();
+5). Set set = new LinkedHashSet();
+Solution :
+option [1] is correct
+Attempted :
+option [2] is attempted 

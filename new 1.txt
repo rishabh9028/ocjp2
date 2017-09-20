@@ -1,0 +1,22 @@
+
+Q. Given the code fragment:
+
+public static vodi main(String args[]){
+ArrayList<String> list= new ArrayList<>();
+list.add("SE");
+list.add("EE");
+list.add("ME");
+list.add("SE");
+list.add("EE");
+
+list.remove("SE");
+System.out.println("Values are : "+ list);
+}
+1). [ SE,EE,ME,EE]
+2). [ EE ME SE EE ]
+3). [ SE SE EE, EE]
+4). [EE ME EE]
+Solution :
+option [2] is correct
+Attempted :
+option [4] is attempted 

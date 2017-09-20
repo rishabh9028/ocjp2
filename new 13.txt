@@ -1,0 +1,11 @@
+
+Q.  Which of the following are true statements?
+1). The Iterator interface declares only three methods: hasNext, next and remove.
+2). The ListIterator interface extends both the List and Iterator interfaces.
+3). The ListIterator interface provides forward and backward iteration capabilities.
+4). The ListIterator interface provides the ability to modify the List during iteration.
+5). The ListIterator interface provides the ability to determine its position in the List.
+Solution :
+option [1,3,4,5] are correct
+Attempted :
+option [1,2,3,4,5] are attempted 
